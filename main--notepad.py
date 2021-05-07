@@ -47,7 +47,7 @@ OpenButton.grid(row = 0, column = 2, padx = 10, pady = 10)
 AboutButton.grid(row = 0, column = 3, padx = 10, pady = 10)
 
 # main area
-writingArea = Text(main, wrap = WORD)
+writingArea = Text(main, wrap = WORD, font = "Calibri 16")
 # main area placement
 writingArea.grid( row = 1,  column= 0, padx = 5, pady = 5, columnspan = 4)
 main.mainloop()
