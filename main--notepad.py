@@ -15,7 +15,7 @@ def OpenFile():
     f_in = askopenfile(title="Open File")
     if f_in is not None:
         # deleting from listbox
-        # writingArea.delete(0, END)
+        writingArea.delete(1.0, END)
 
         # reading items from file
         items = f_in.readlines()
@@ -26,7 +26,6 @@ def OpenFile():
 def SaveFile():
     f_out = asksaveasfile(defaultextension=".txt")
     if f_out is not None:
-        # for item in :
         print(writingArea.get(1.0, END), file=f_out)
 
         writingArea.delete(1.0, END)
