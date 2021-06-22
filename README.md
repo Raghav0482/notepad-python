@@ -4,6 +4,8 @@ Hope You Will Like The App.. and also u can use the code to make your own versio
 
 ## New Updates of the Application may come soon
 
+> ### To uses notepad simply go to cmd
+>####Run command pip3 install Tkinter
 > ### To uses notepad simply click on main--notepad.py
 
 Dont Edit Code.. **IT MAY CRASH THE APP!**
